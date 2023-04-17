@@ -33,6 +33,32 @@ ul{
     list-style-position: inside;
 }
 
+table{
+    border-collapse: collapse;
+}
+
+th{
+    text-align: left;
+    background-color: #20a9e5;
+    color: white;    
+}
+
+td{
+    padding: 15px;
+}
+
+.blue-table{
+    background-color: #b1e5f2;
+}
+
+.small-column{
+    width: 25%;
+}
+
+.big-column{
+    width: 50%;
+}
+
 /* utilites */
 
 .grey-text{

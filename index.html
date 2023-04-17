@@ -35,15 +35,17 @@
             I wanted to use a section but the html validator was complaining about the lack of a heading for
             the section -->
             <div id="pictures">
-                    <div>
+                    <figure>
                         <img src="img/tim-1.jpg" alt="Tim Berners Lee at L. Knight Foundation">
                         <img src="img/tim-2.jpg" alt="Tim Berners Lee">
-                    </div>
+                    </figure>
                     <div class="small-text">1st Photo: John S and James L. Knight Foundation, by Scott Henrichsen</div>
                     <div class="small-text">2nd Photo: Tim Berners Lee, by Pual Clarke</div>
             </div>
             
-            <!-- main article -->
+            <!-- main article 
+            For article too the html complains the lack of a heading, but this time I decided 
+            to push it as it is-->
             <article>
 
                 <!-- main paragraph -->
@@ -60,6 +62,36 @@
                     <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est officia ab similique eius omnis expedita aut perspiciatis blanditiis laudantium laboriosam.</li>
                 </ul>
 
+                <!-- blue table -->
+                <table>
+                    <thead>
+                        <tr>
+                            <th class="small-column">Lorem ipsum dolor</th>
+                            <th class="small-column">Lorem ipsum dolor</th>
+                            <th class="big-column">Lorem ipsum dolor</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class="blue-table">
+                            <td>Lorem ipsum dolor</td>
+                            <td>Lorem ipsum dolor</td>
+                            <td>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat natus doloribus provident dolore quia eveniet inventore praesentium recusandae, quasi quibusdam eaque, suscipit earum sunt at nisi. Dicta itaque dolor nisi!</td>
+                        </tr>
+                    <tbody>
+                        <tr>
+                            <td>Lorem ipsum dolor</td>
+                            <td>Lorem ipsum dolor</td>
+                            <td>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat natus doloribus provident dolore quia eveniet inventore praesentium recusandae, quasi quibusdam eaque, suscipit earum sunt at nisi. Dicta itaque dolor nisi!</td>
+                        </tr>
+                    <tbody>
+                        <tr class="blue-table">
+                            <td>Lorem ipsum dolor</td>
+                            <td>Lorem ipsum dolor</td>
+                            <td>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat natus doloribus provident dolore quia eveniet inventore praesentium recusandae, quasi quibusdam eaque, suscipit earum sunt at nisi. Dicta itaque dolor nisi!</td>
+                        </tr>
+                    </tbody>
+                </table>
+                
             </article>
 
         </main>
