@@ -24,6 +24,10 @@ header h1{
     margin-bottom: 0;
 }
 
+#pictures{
+    margin-top: 20px;
+}
+
 /* utilites */
 
 .grey-text{
