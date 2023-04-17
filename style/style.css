@@ -1,6 +1,7 @@
 body{
     margin: 0;
     margin-bottom: 20px;
+    /* margin at bottom to leave space after last picture */
 }
 
 .headbar-background{
@@ -15,13 +16,10 @@ body{
     margin: 0 auto;
 }
 
-.headbar{
-    height: 120px;
-}
-
 .logo{
     max-width: 1100px;
     margin: 0 auto;
+    /* same settings as container to ensure same behaveiour */
     height: 100%;
     background-image: url(../img/logo.svg);
     background-repeat: no-repeat;
@@ -29,18 +27,17 @@ body{
     background-size: 240px;
 }
 
+/* no margin between the title and the author */
 header h1{
     margin-bottom: 0;
 }
 
+/* margin to add space between pictures and header */
 #pictures{
     margin-top: 20px;
 }
 
-figure{
-    margin: 0;
-}
-
+/* fix to align list with the rest of the page */
 ul{
     padding: 0;
     list-style-position: inside;
@@ -56,23 +53,13 @@ th{
     color: white;    
 }
 
-.blue-table{
-    background-color: #b1e5f2;
-}
-
-.small-column{
-    width: 25%;
-}
-
-.big-column{
-    width: 50%;
-}
-
+/* to give only the figure inside the footer the original images' size */
 footer figure{
     height: 208px;
     width: 312px;
 }
 
+/* to format text inside images */
 figure h2{
     color: white;
     padding: 10px;
@@ -87,6 +74,17 @@ figure h2{
 }
 
 /* utilites */
+.small-column{
+    width: 25%;
+}
+
+.big-column{
+    width: 50%;
+}
+
+.blue-table{
+    background-color: #b1e5f2;
+}
 
 .grey-text{
     color: grey;
@@ -102,4 +100,8 @@ figure h2{
 
 .highlighted-text{
     background-color: yellow;
+}
+
+figure{
+    margin: 0;
 }
