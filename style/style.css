@@ -1,102 +1,101 @@
-body{
+body {
     margin: 0;
     margin-bottom: 20px;
     /* margin at bottom to leave space after last picture */
 }
 
-.headbar-background{
+.headbar-background {
     margin: 0;
     height: 120px;
     background-color: #4ea0ff;
-    background-image: url(../img/pattern.png);   
+    background-image: url(../img/pattern.png);
     line-height: 120px;
 }
 
-.container{
+.container {
     max-width: 1100px;
     margin: 0 auto;
 }
 
-.logo{
-    height: 60px; 
+.logo {
+    height: 60px;
     vertical-align: middle;
 }
 
 /* no margin between the title and the author */
-header h1{
+header h1 {
     margin-bottom: 0;
 }
 
 /* margin to add space between pictures and header */
-#pictures{
+#pictures {
     margin-top: 20px;
 }
 
 /* fix to align list with the rest of the page */
-ul{
+ul {
     padding: 0;
     list-style-position: inside;
 }
 
-table{
+table {
     border-collapse: collapse;
 }
 
-th{
+th {
     text-align: left;
     background-color: #20a9e5;
-    color: white;    
+    color: white;
 }
 
-/* to give only the figure inside the footer the original images' size */
-footer figure{
+footer div {
     height: 208px;
     width: 312px;
 }
 
 /* to format text inside images */
-figure h2{
+footer h2 {
     color: white;
     padding: 10px;
 }
 
-#monitor{
+#monitor {
     background-image: url(../img/monitor.jpg);
 }
 
-#graph{
+#graph {
     background-image: url(../img/graph.jpg);
 }
 
 /* utilites */
-.small-column{
+.small-column {
     width: 25%;
 }
 
-.big-column{
+.big-column {
     width: 50%;
 }
 
-.blue-table{
+.blue-table {
     background-color: #b1e5f2;
 }
 
-.grey-text{
+.grey-text {
     color: grey;
 }
 
-.blue-text{
+.blue-text {
     color: #4ea0ff;
 }
 
-.small-text{
+.small-text {
     font-size: 12px;
 }
 
-.highlighted-text{
+.highlighted-text {
     background-color: yellow;
 }
 
-figure{
+figure {
     margin: 0;
 }
